@@ -2,7 +2,7 @@
 
 [Meta Pool](https://www.metapool.app/) is a liquid staking solution built on the NEAR Protocol. Meta Pool unlocks liquidity of the staked NEAR by creating a staking derivative to be engaged with various DeFi protocols on NEAR and Aurora, while also enjoying over 10% APY staking rewards of the underlying base tokens.
 
-This repository holds [Meta Pool BOS components](https://near.org/pierre-dev.near/widget/MetaPool) hosted on NEAR BOS (Blockchain Operating System), to interact with [Meta Pool smart contract](https://github.com/pierre-dev.near/metapool).
+This repository holds [Meta Pool BOS components](https://near.org/pierre-dev.near/widget/MetaPool) hosted on NEAR BOS (Blockchain Operating System), to interact with Meta Pool smart contract.
 
 ## Setup Local Environment
 
