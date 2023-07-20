@@ -1,8 +1,8 @@
 # Meta Pool BOS App
 
-[Meta Pool](https://www.metapool.app/) is a liquid staking solution built on the NEAR Protocol. StNEAR unlocks liquidity of the staked NEAR by creating a staking derivative to be engaged with various DeFi protocols on NEAR and Aurora, while also enjoying over 10% APY staking rewards of the underlying base tokens. StNEAR is the cornerstone piece of the NEAR-Aurora DeFi ecosystem.
+[Meta Pool](https://www.metapool.app/) is a liquid staking solution built on the NEAR Protocol. Meta Pool unlocks liquidity of the staked NEAR by creating a staking derivative to be engaged with various DeFi protocols on NEAR and Aurora, while also enjoying over 10% APY staking rewards of the underlying base tokens.
 
-This repository holds [StNEAR BOS components](https://near.org/pierre-dev.near/widget/MetaPool) hosted on NEAR BOS (Blockchain Operating System), to interact with [StNEAR smart contract](https://github.com/pierre-dev.near/metapool).
+This repository holds [Meta Pool BOS components](https://near.org/pierre-dev.near/widget/MetaPool) hosted on NEAR BOS (Blockchain Operating System), to interact with [Meta Pool smart contract](https://github.com/pierre-dev.near/metapool).
 
 ## Setup Local Environment
 
@@ -33,7 +33,7 @@ Use [BOS Loader](https://docs.near.org/bos/dev/bos-loader) to enable instant pre
 
 ## Folder Structure
 
-The source code of StNEAR components are available in the `src` folder, and organized by sub-folders. For example, the `pierre-dev.near/widget/MetaPool.Element.Button` component is available in `src/StNEAR/Element/Button.jsx`. BOS Loader and BOS CLI both use `.` delimiter when converting local file path to component name, and vice versa.
+The source code of Meta Pool components are available in the `src` folder, and organized by sub-folders. For example, the `pierre-dev.near/widget/MetaPool.Element.Button` component is available in `src/MetaPool/Element/Button.jsx`. BOS Loader and BOS CLI both use `.` delimiter when converting local file path to component name, and vice versa.
 
 ## Continuous Integration & Delivery
 
