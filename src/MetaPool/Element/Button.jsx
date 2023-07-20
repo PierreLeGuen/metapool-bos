@@ -39,8 +39,6 @@ const Btn = styled.button`
   }
 `;
 
-console.log("props", props);
-
 return (
   <Btn disabled={props.disabled} onClick={props.onClick}>
     {props.text}
