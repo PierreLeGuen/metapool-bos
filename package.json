@@ -1,0 +1,41 @@
+{
+    "name": "metapool-bos",
+    "version": "0.0.1",
+    "description": "MetaPool BOS",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install",
+        "start:testnet": "METAPOOL_BOS_URL=https://test.near.org/pierre-dev.near/widget/MetaPool && open $METAPOOL_BOS_URL && echo \"Preview at: $METAPOOL_BOS_URL\"",
+        "dev": "yarn start:testnet && bos-loader pierre-dev.near --path src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/PierreLeGuen/metapool-bos.git"
+    },
+    "keywords": [
+        "metapool",
+        "stnear",
+        "bos",
+        "component"
+    ],
+    "author": "Pierre Le Guen and LiNEAR",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/PierreLeGuen/metapool-bos/issues"
+    },
+    "homepage": "https://github.com/PierreLeGuen/metapool-bos#readme",
+    "engines": {
+        "node": ">=14"
+    },
+    "prettier": {
+        "printWidth": 80,
+        "semi": true,
+        "singleQuote": false,
+        "trailingComma": "es5"
+    },
+    "devDependencies": {
+        "husky": "^8.0.3",
+        "lint-staged": "^13.2.2",
+        "prettier": "^2.8.8"
+    }
+}
