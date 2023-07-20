@@ -1,6 +1,6 @@
-# MetaPool BOS Components
+# Meta Pool BOS App
 
-[MetaPool](https://www.metapool.app/) is a liquid staking solution built on the NEAR Protocol. StNEAR unlocks liquidity of the staked NEAR by creating a staking derivative to be engaged with various DeFi protocols on NEAR and Aurora, while also enjoying over 10% APY staking rewards of the underlying base tokens. StNEAR is the cornerstone piece of the NEAR-Aurora DeFi ecosystem.
+[Meta Pool](https://www.metapool.app/) is a liquid staking solution built on the NEAR Protocol. StNEAR unlocks liquidity of the staked NEAR by creating a staking derivative to be engaged with various DeFi protocols on NEAR and Aurora, while also enjoying over 10% APY staking rewards of the underlying base tokens. StNEAR is the cornerstone piece of the NEAR-Aurora DeFi ecosystem.
 
 This repository holds [StNEAR BOS components](https://near.org/pierre-dev.near/widget/MetaPool) hosted on NEAR BOS (Blockchain Operating System), to interact with [StNEAR smart contract](https://github.com/pierre-dev.near/metapool).
 
